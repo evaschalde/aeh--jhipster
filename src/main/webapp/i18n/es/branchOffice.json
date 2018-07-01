@@ -1,0 +1,28 @@
+
+{
+    "aehApp": {
+        "branchOffice" : {
+            "home": {
+                "title": "Branch Offices",
+                "createLabel": "Crear nuevo Branch Office",
+                "createOrEditLabel": "Crear o editar Branch Office"
+            },
+            "created": "Un nuevo Branch Office ha sido creado con el identificador {{ param }}",
+            "updated": "Un Branch Office ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Branch Office ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Branch Office {{ id }}?"
+            },
+            "detail": {
+                "title": "Branch Office"
+            },
+            "streetAddress": "Street Address",
+            "postalCode": "Postal Code",
+            "city": "City",
+            "stateProvince": "State Province",
+            "phone": "Phone",
+            "externalResponsable": "External Responsable",
+            "company": "Company"
+        }
+    }
+}

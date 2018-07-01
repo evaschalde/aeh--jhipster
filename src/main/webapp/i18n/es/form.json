@@ -1,0 +1,27 @@
+
+{
+    "aehApp": {
+        "form" : {
+            "home": {
+                "title": "Forms",
+                "createLabel": "Crear nuevo Form",
+                "createOrEditLabel": "Crear o editar Form"
+            },
+            "created": "Un nuevo Form ha sido creado con el identificador {{ param }}",
+            "updated": "Un Form ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Form ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Form {{ id }}?"
+            },
+            "detail": {
+                "title": "Form"
+            },
+            "name": "Name",
+            "form": "Form",
+            "event": "Event",
+            "responsable": "Responsable",
+            "externalResponsable": "External Responsable",
+            "template": "Template"
+        }
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "name": "Event",
+    "fields": [
+        {
+            "fieldName": "observations",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "startDateProgramed",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "finishDateProgramed",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "startDateValidity",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "finishDateValidity",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "startDateCompleted",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "finishDateCompleted",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "criticallity",
+            "fieldType": "Criticallity",
+            "fieldValues": "CRITICAL,HIGH,MEDIUM,LOW"
+        },
+        {
+            "fieldName": "satte",
+            "fieldType": "State",
+            "fieldValues": "PROGRAMED,FINISHED,REPROGRAMED,CANCELLED"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "responsable",
+            "otherEntityName": "responsable",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "branchOffice",
+            "otherEntityName": "branchOffice",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "eventType",
+            "otherEntityName": "eventType",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "externalResposable",
+            "otherEntityName": "externalResponsable",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20180701205045",
+    "entityTableName": "event",
+    "dto": "no",
+    "pagination": "infinite-scroll",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

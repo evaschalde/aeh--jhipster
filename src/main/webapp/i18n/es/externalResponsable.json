@@ -1,0 +1,25 @@
+
+{
+    "aehApp": {
+        "externalResponsable" : {
+            "home": {
+                "title": "External Responsables",
+                "createLabel": "Crear nuevo External Responsable",
+                "createOrEditLabel": "Crear o editar External Responsable"
+            },
+            "created": "Un nuevo External Responsable ha sido creado con el identificador {{ param }}",
+            "updated": "Un External Responsable ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un External Responsable ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar External Responsable {{ id }}?"
+            },
+            "detail": {
+                "title": "External Responsable"
+            },
+            "name": "Name",
+            "lastName": "Last Name",
+            "phone": "Phone",
+            "branchOffice": "Branch Office"
+        }
+    }
+}

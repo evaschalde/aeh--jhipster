@@ -1,0 +1,42 @@
+{
+    "name": "Activity",
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "activity",
+            "otherEntityName": "company",
+            "otherEntityRelationshipName": "activity"
+        },
+        {
+            "relationshipName": "activity",
+            "otherEntityName": "activity",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "subActivity",
+            "otherEntityName": "activity",
+            "otherEntityRelationshipName": "activity"
+        }
+    ],
+    "changelogDate": "20180701205043",
+    "entityTableName": "activity",
+    "dto": "no",
+    "pagination": "infinite-scroll",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

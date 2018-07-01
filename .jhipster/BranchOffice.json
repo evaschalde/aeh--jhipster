@@ -1,0 +1,48 @@
+{
+    "name": "BranchOffice",
+    "fields": [
+        {
+            "fieldName": "streetAddress",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "postalCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "city",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "stateProvince",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "phone",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "externalResponsable",
+            "otherEntityName": "externalResponsable",
+            "otherEntityRelationshipName": "branchOffice"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "company",
+            "otherEntityName": "company",
+            "otherEntityRelationshipName": "branchOffice"
+        }
+    ],
+    "changelogDate": "20180701205042",
+    "entityTableName": "branch_office",
+    "dto": "no",
+    "pagination": "infinite-scroll",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,34 @@
+
+{
+    "aehApp": {
+        "event" : {
+            "home": {
+                "title": "Events",
+                "createLabel": "Create a new Event",
+                "createOrEditLabel": "Create or edit a Event"
+            },
+            "created": "A new Event is created with identifier {{ param }}",
+            "updated": "A Event is updated with identifier {{ param }}",
+            "deleted": "A Event is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Event {{ id }}?"
+            },
+            "detail": {
+                "title": "Event"
+            },
+            "observations": "Observations",
+            "startDateProgramed": "Start Date Programed",
+            "finishDateProgramed": "Finish Date Programed",
+            "startDateValidity": "Start Date Validity",
+            "finishDateValidity": "Finish Date Validity",
+            "startDateCompleted": "Start Date Completed",
+            "finishDateCompleted": "Finish Date Completed",
+            "criticallity": "Criticallity",
+            "satte": "Satte",
+            "responsable": "Responsable",
+            "branchOffice": "Branch Office",
+            "eventType": "Event Type",
+            "externalResposable": "External Resposable"
+        }
+    }
+}

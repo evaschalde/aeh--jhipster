@@ -12,9 +12,6 @@ const accountMenuItemsAuthenticated = (
     <DropdownItem tag={Link} to="/account/password">
       <FontAwesomeIcon icon="clock" /> Password
     </DropdownItem>
-    <DropdownItem tag={Link} to="/account/sessions">
-      <FontAwesomeIcon icon="cloud" /> Sessions
-    </DropdownItem>
     <DropdownItem tag={Link} to="/logout">
       <FontAwesomeIcon icon="sign-out-alt" /> Logout
     </DropdownItem>

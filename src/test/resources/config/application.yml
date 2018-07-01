@@ -16,10 +16,12 @@
 
 spring:
     application:
-        name: filer
+        name: aeh
+    cache:
+        type: simple
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
-        url: jdbc:h2:mem:filer;DB_CLOSE_DELAY=-1
+        url: jdbc:h2:mem:aeh;DB_CLOSE_DELAY=-1
         name:
         username:
         password:
@@ -82,9 +84,11 @@ jhipster:
         from: test@localhost
         base-url: http://127.0.0.1:8080
     security:
-        remember-me:
-            # security key (this key should be unique for your application, and kept secret)
-            key: d8390210a7484d78c05f0d4b1def63fbed455942
+        authentication:
+            jwt:
+                secret: 20bbb7b88e8dc87c03921e59d1d4afe0a4ccd036
+                # Token is valid 24 hours
+                token-validity-in-seconds: 86400
     metrics: # DropWizard Metrics configuration, used by MetricsConfiguration
         jmx.enabled: true
         logs: # Reports Dropwizard metrics in the logs

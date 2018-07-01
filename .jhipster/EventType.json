@@ -1,0 +1,28 @@
+{
+    "name": "EventType",
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "criticallity",
+            "fieldType": "Criticallity",
+            "fieldValues": "CRITICAL,HIGH,MEDIUM,LOW"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20180701205046",
+    "entityTableName": "event_type",
+    "dto": "no",
+    "pagination": "infinite-scroll",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

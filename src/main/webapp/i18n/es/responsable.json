@@ -1,0 +1,25 @@
+
+{
+    "aehApp": {
+        "responsable" : {
+            "home": {
+                "title": "Responsables",
+                "createLabel": "Crear nuevo Responsable",
+                "createOrEditLabel": "Crear o editar Responsable"
+            },
+            "created": "Un nuevo Responsable ha sido creado con el identificador {{ param }}",
+            "updated": "Un Responsable ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Responsable ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Responsable {{ id }}?"
+            },
+            "detail": {
+                "title": "Responsable"
+            },
+            "name": "Name",
+            "lastName": "Last Name",
+            "phone": "Phone",
+            "mail": "Mail"
+        }
+    }
+}

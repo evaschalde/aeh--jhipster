@@ -1,0 +1,23 @@
+
+{
+    "aehApp": {
+        "template" : {
+            "home": {
+                "title": "Templates",
+                "createLabel": "Crear nuevo Template",
+                "createOrEditLabel": "Crear o editar Template"
+            },
+            "created": "Un nuevo Template ha sido creado con el identificador {{ param }}",
+            "updated": "Un Template ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Template ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Template {{ id }}?"
+            },
+            "detail": {
+                "title": "Template"
+            },
+            "name": "Name",
+            "form": "Form"
+        }
+    }
+}

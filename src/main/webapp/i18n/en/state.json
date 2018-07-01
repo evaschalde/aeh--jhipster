@@ -1,0 +1,11 @@
+{
+    "aehApp": {
+        "State" : {
+            "null": "",
+            "PROGRAMED": "PROGRAMED",
+            "FINISHED": "FINISHED",
+            "REPROGRAMED": "REPROGRAMED",
+            "CANCELLED": "CANCELLED"
+        }
+    }
+}
